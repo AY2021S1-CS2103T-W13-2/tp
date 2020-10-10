@@ -243,8 +243,8 @@ _{Explain here how the data archiving feature will be implemented}_
 * prefers typing to mouse interactions
 * is reasonably comfortable using CLI apps
 
-**Value proposition**:
-Bagel is a flashcard application faster than a typical mouse/GUI driven app with additional functionality such as
+**Value proposition**: 
+Bagel is a flashcard application faster than a typical mouse/GUI driven app with additional functionality such as 
 adding tags, links, or comments. It targets computing students taking GER1000 because it is a module that requires
 memorising many keywords and items, and computing students would prefer typing over other means of input.
 
@@ -270,10 +270,10 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 **MSS**
 
-1. User chooses to find a flashcard.
+1. User chooses to find a flashcard. 
 2. User enters the keyword they would like to search for.
 <<<<<<< HEAD
-3. Bagel finds the flashcard and shows a list of flashcards that contain that keyword.
+3. Bagel finds the flashcard and shows a list of flashcards that contain that keyword. 
   Use case ends.
 =======
 3. Bagel finds the flashcard and shows a list of flashcards that contain that keyword.
@@ -287,7 +287,7 @@ Use case ends.
 <<<<<<< HEAD
 2a. Bagel detects an error in the entered data.
     2a1. Bagel requests for the correct data.
-    2a2. User enters new details.
+    2a2. User enters new details. 
     Steps 2a1-2a2 are repeated until the data entered are correct.
     Use case resumes from step 3.
 =======
@@ -317,7 +317,7 @@ Use case ends.
 <<<<<<< HEAD
 4a. Bagel detects an error in the entered data.
     4a1. Bagel requests for the correct data.
-    4a2. User enters new details.
+    4a2. User enters new details. 
     Steps 4a1-4a2 are repeated until the data entered are correct.
     Use case resumes from step 5.
 =======
@@ -325,7 +325,7 @@ Use case ends.
     * 4a1. Bagel requests for the correct data.
     * 4a2. User enters new details.
     * Steps 4a1-4a2 are repeated until the data entered are correct.
-
+    
 Use case resumes from step 5.
 >>>>>>> a0f1560e2c1a16498aa44176cfb5d7df4e027f0f
 
@@ -338,9 +338,9 @@ Use case resumes from step 5.
 2. User enters ‘list’ to view indexes of flashcards.
 3. Bagel shows the list of flashcards.
 <<<<<<< HEAD
-4. User enters the index of the flashcard they would like to delete.
-5. Bagel deletes the flashcard and shows the new list of flashcards.
-Use case ends.
+4. User enters the index of the flashcard they would like to delete. 
+5. Bagel deletes the flashcard and shows the new list of flashcards. 
+Use case ends. 
 =======
 4. User enters the index of the flashcard they would like to delete.
 5. Bagel deletes the flashcard and shows the new list of flashcards.
@@ -354,7 +354,7 @@ Use case ends.
 <<<<<<< HEAD
 4a. Bagel detects an error in the entered data.
     4a1. Bagel requests for the correct data.
-    4a2. User enters new details.
+    4a2. User enters new details. 
     Steps 4a1-4a2 are repeated until the data entered are correct.
     Use case resumes from step 5.
 =======
@@ -375,11 +375,11 @@ Use case resumes from step 5.
 2. User enters ‘flip’ to start viewing from the first flashcard in the list.
 3. Bagel shows the first flashcard.
 4. User enters ‘flip’ to view the next flashcard in the list.
-5. Bagel shows the next flashcard.
+5. Bagel shows the next flashcard. 
 Steps 4-5 are repeated for each flashcard, until the user reaches the end of the list.
 <<<<<<< HEAD
-6. Bagel shows the current list of flashcards.
-Use case ends.
+6. Bagel shows the current list of flashcards. 
+Use case ends. 
 =======
 6. Bagel shows the current list of flashcards.
 
@@ -390,9 +390,9 @@ Use case ends.
 **Extensions**
 
 <<<<<<< HEAD
-2a/4a. Bagel detects an error in the entered data.
-    2a1/4a1. Bagel requests for the correct data.
-    2a2/4a2. User enters new details.
+2a/4a. Bagel detects an error in the entered data. 
+    2a1/4a1. Bagel requests for the correct data. 
+    2a2/4a2. User enters new details. 
     Steps 2a1-2a2/4a1-4a2 are repeated until the data entered are correct.
     Use case resumes from step 3/5.
 =======
@@ -412,11 +412,11 @@ Use case resumes from step 3/5.
 3. Bagel should be intuitive to use for first time users.
 4. Bagel should be targeting users who can type fast and prefer typing over other means of input.
 5. Bagel should respond within two seconds.
-6. Bagel should show flashcards within one second of inputting the command.
-7. Any version of Bagel should function as long as the user has it installed.
-8. Bagel is expected to adhere to the CS2103T schedule.
-9. Bagel is not expected to quiz the user.
-10. Bagel should be for a single user.
+6. Bagel should show flashcards within one second of inputting the command. 
+7. Any version of Bagel should function as long as the user has it installed. 
+8. Bagel is expected to adhere to the CS2103T schedule. 
+9. Bagel is not expected to quiz the user. 
+10. Bagel should be for a single user. 
 
 ### Glossary
 
