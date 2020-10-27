@@ -8,8 +8,8 @@ import static seedu.address.commons.util.AppUtil.checkArgument;
  * Guarantees: immutable; is valid as declared in {@link #isValidSetNumber(String)}
  */
 public class FlashcardSet {
-    public static final String MESSAGE_CONSTRAINTS = "Set number should only contain numbers between 1 to 9.";
-    public static final String VALIDATION_REGEX = "[1-9]";
+    public static final String MESSAGE_CONSTRAINTS = "Set number should only contain numbers between 1 to 99.";
+    public static final String VALIDATION_REGEX = "[1-9]|[1-9][0-9]";
 
     public final String value;
 

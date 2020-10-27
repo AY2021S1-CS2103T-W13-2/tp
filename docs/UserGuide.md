@@ -66,7 +66,8 @@ Refer to the Features below for details of each command.
 Adds a flashcard to the total list of flashcards.
 * Adds a flashcard with a title and description
 * Title and description must be entered
-* An optional set number (a positive integer between 1 to 99) can be added
+* An optional set number (a positive integer between 1 to 99) can be added. By default, all flashcards are add into
+set `1`.
 
 Format: `add t/TITLE d/DESCRIPTION [s/SET] [l/LINK] [tag/TAG]…​`
 
@@ -123,9 +124,15 @@ Format: `view INDEX`
 
 ### Viewing all flashcards : `list`
 
-Shows a list of all flashcards.
+Shows a list of all flashcards created, or shows a list of all flashcards in a chosen set.
 
-Format: `list`
+Format: 
+* `list` to show all flashcards created
+* `list s/[SET_NUMBER]` to show all flashcards in set `SET_NUMBER`
+
+Examples:
+* `list s/2` displays all flashcards in set `2`.
+
 
 ### Flipping through flashcards : `flip`
 

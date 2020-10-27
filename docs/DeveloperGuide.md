@@ -6,7 +6,23 @@ title: Developer Guide
 {:toc}
 
 --------------------------------------------------------------------------------------------------------------------
+## **Introduction**
 
+### Purpose
+This document specifies architecture and software design decisions for the desktop flashcard application, Bagel. It is
+a living document that evolves throughout the design and implementation for each release.
+
+### Scope
+This describes the software architecture and software decisions for the implementation of Bagel. The intended audience
+of this document is the developers, designers, and software testers of Bagel.
+
+### Overview
+This document focuses on 2 major parts: design and implementation. Under the Design section, you can find details of 
+the system architecture. Under the Implementation section, you can find details of the implementation of some of the 
+commands used in Bagel. In addition to the current document, separate documents and guides on how to use or test Bagel 
+have been included under the Documentation section of this document.
+
+--------------------------------------------------------------------------------------------------------------------
 ## **Setting up, getting started**
 
 Refer to the guide [_Setting up and getting started_](SettingUp.md).
